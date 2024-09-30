@@ -24,3 +24,4 @@ class RealEstate(models.Model):
         ('sw', 'Southwest'), ('w', 'West'), ('nw', 'Northwest')],
         help="Denotes which direction the garden is facing"
         )
+    active = fields.Boolean(default=True)
