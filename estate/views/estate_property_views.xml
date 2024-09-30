@@ -39,14 +39,16 @@
                     </group>
                     <notebook>
                         <page string="Description">
-                            <field name="name" string="Description"/>
-                            <field name="bedrooms"/>
-                            <field name="living_area" string="Living Area (sqm)"/>
-                            <field name="facades"/>
-                            <field name="garage"/>
-                            <field name="garden"/>
-                            <field name="garden_area" string="Garden Area (sqm)"/>
-                            <field name="garden_orientation"/>
+                            <group>
+                                <field name="name" string="Description"/>
+                                <field name="bedrooms"/>
+                                <field name="living_area" string="Living Area (sqm)"/>
+                                <field name="facades"/>
+                                <field name="garage"/>
+                                <field name="garden"/>
+                                <field name="garden_area" string="Garden Area (sqm)"/>
+                                <field name="garden_orientation"/>
+                            </group>
                         </page>
                     </notebook>
                 </sheet>
