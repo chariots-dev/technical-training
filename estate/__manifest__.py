@@ -5,8 +5,8 @@
     "depends": ["base"],  # dependencies
     "data": [
         # views
+        "views/estate_property_views.xml",
         "views/estate_menus.xml",
-        "views/real_estate_views.xml",
 
         # security
         "security/res_groups.xml",
