@@ -25,3 +25,8 @@ class RealEstate(models.Model):
         help="Denotes which direction the garden is facing"
         )
     active = fields.Boolean(default=True)
+    state = fields.Selection(
+        required=True, copy= False, default='new', string='Property Status',
+        selection=[('new', 'New'), ('received', 'Offer Received'), ('accepted', 'Offer Accepted'), ('sold', 'Sold'), ('cancelled', 'Cancelled')],
+        help="Reflects the current status in the sales process"
+        )
