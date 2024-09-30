@@ -1,6 +1,6 @@
 <odoo>
     <data>
-        <record id="house_1" model="real.estate">
+        <record id="house_1" model="estate.property">
             <field name="name">House Number 1</field>
             <field name="price">100000</field>
         </record>
