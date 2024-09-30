@@ -1,0 +1,8 @@
+<odoo>
+    <menuitem id="real_test_app" name="REAL TEST">
+        <menuitem id="second_level_menu" name="Estate">
+            <menuitem id="third_level_menuitem" name="Create Test Record" action="test_record"/>
+            <menuitem id="invoice_summary_menuitem" name="Invoice Summary" action="invoice_summary_action"/>
+        </menuitem>
+    </menuitem>
+</odoo>
