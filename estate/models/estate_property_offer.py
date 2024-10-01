@@ -11,6 +11,6 @@ class RealEstate(models.Model):
         default="received", required=True,
         selection=[('received', 'Offer Received'), ('accepted', 'Offer Accepted'), ('refused', 'Refused')],
         )
-    partner_id = fields.Many2one(res.partner, required=True)
-    property_id = fields.Many2one(estate.property, required=True)
+    partner_id = fields.Many2one('res.partner', required=True)
+    property_id = fields.Many2one('estate.property', required=True)
 
