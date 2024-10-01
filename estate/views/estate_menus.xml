@@ -5,6 +5,7 @@
         </menuitem>
         <menuitem id="second_level_menu2" name="Settings">
             <menuitem id="third_level_menuitem2" name="Property Types" action="estate_property_type_window"/>
+            <menuitem id="third_level_menuitem3" name="Property Tags" action="estate_property_tag_window"/>
         </menuitem>
     </menuitem>
 </odoo>
