@@ -1,7 +1,10 @@
 <odoo>
     <menuitem id="real_test_app" name="REAL TEST">
         <menuitem id="second_level_menu" name="Estate">
-            <menuitem id="third_level_menuitem" name="Create Test Record" action="test_record"/>
+            <menuitem id="third_level_menuitem" name="Properties" action="estate_property_window"/>
+        </menuitem>
+        <menuitem id="second_level_menu2" name="Settings">
+            <menuitem id="third_level_menuitem2" name="Property Types" action="estate_property_type_window"/>
         </menuitem>
     </menuitem>
 </odoo>
