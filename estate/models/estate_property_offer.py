@@ -3,7 +3,7 @@ from odoo import models, fields
 # this is creating a table
 class RealEstate(models.Model):
     _name = "estate.property.offer"
-    _description = "Real Estate Property Type"
+    _description = "Real Estate Property Offer"
 
     # this is creating fields in the table
     price = fields.Float(copy=False, required=True)
