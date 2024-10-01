@@ -20,9 +20,9 @@ class RealEstate(models.Model):
     def _compute_deadline(self):
         for record in self:
             if not record.create_date:
-                record.date_deadline = fields.Date.add(value=fields.Date.today(), record.validity)
+                record.date_deadline = fields.Date.add(value=fields.Date.today(), days=record.validity)
             else:
-                record.date_deadline = fields.Date.add(value=record.create_date, record.validity)
+                record.date_deadline = fields.Date.add(value=record.create_date, days=record.validity)
 
     def _inverse_deadline(self):
         for record in self:
