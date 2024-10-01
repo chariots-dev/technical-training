@@ -10,8 +10,8 @@
         <field name="model">estate.property</field>
         <field name="arch" type="xml">
             <list string="Estate Properties">
-                <field name="name" string="Title"/>
-                <field name="postcode"/>
+                <field name="name" string="Title" style="width: 20px;"/>
+                <field name="postcode" style="width: 20px;"/>
                 <field name="bedrooms"/>
                 <field name="living_area" string="Living Area (sqm)"/>
                 <field name="expected_price"/>
