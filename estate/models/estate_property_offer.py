@@ -29,4 +29,4 @@ class RealEstate(models.Model):
             if not record.create_date:
                 record.validity = (record.date_deadline - fields.Date.today()).days
             else:
-                record.validity = (record.date_deadline - record.create_date).days
+                record.validity = (record.date_deadline - fields.Date.to_date(record.create_date)).days
