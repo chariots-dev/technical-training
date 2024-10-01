@@ -1,4 +1,4 @@
-from odoo import models, fields
+from odoo import models, fields, api
 
 # this is creating a table
 class RealEstate(models.Model):
